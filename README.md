@@ -7,12 +7,12 @@ jQuery wrapper for easily calling openiban.org json services.
 
 How to use
 ----------
-```jquery
+```javascript
 $('#myIbanField').getBankAndBicWithIBAN({
         targetBic: $('#myTargetBIC'),
         targetBank: $('#myTargetBank')
     });
-
+```
 Maintainer
 ----------
 
